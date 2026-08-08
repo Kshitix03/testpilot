@@ -1,0 +1,31 @@
+# secrets
+.env
+.env.local
+.env.*.local
+
+# virtualenvs
+venv/
+.venv/
+env/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# agent output — regenerated on every run
+generated_test.py
+
+# playwright
+test-results/
+playwright-report/
+*.webm
+*.zip
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
